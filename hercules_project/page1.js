@@ -60,9 +60,9 @@ function draw() {
 
 function drawInterface() {
   noStroke();
-  fill(200, 250);
+  fill(100, 150);
   rect(width * 0.08, height * 0.08, width * 0.84, height * 0.82, 12);
-  fill(25);
+  fill(55);
   textAlign(LEFT, TOP);
   textSize(min(width, height) * 0.04);
   textStyle(BOLD);
