@@ -60,7 +60,7 @@ function draw() {
 
 function drawInterface() {
   noStroke();
-  fill(255, 250);
+  fill(200, 250);
   rect(width * 0.08, height * 0.08, width * 0.84, height * 0.82, 12);
   fill(25);
   textAlign(LEFT, TOP);
