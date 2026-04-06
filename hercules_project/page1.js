@@ -12,7 +12,7 @@ let glyphs = [];
 let pageStartTime = 0;
 let frozen = false;
 let freezeFrame;
-const FREEZE_AT = 30000;
+const FREEZE_AT = 15000;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
